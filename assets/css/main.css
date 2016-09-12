@@ -1203,7 +1203,7 @@ body {
     transition: none !important; }
 
 body, input, select, textarea {
-  color: #a2a2a2;
+  color: #b2b2b2;
   font-family: "Raleway", sans-serif;
   font-size: 16pt;
   font-weight: 400;
@@ -1955,6 +1955,9 @@ input[type="button"],
       border-top: 0;
       margin-top: 0;
       padding-top: 0; }
+  #main h2 {
+    color: #787878;
+    font-weight: _vars(weight-bold); }
 
 /* Poptrox */
 @-moz-keyframes spin {

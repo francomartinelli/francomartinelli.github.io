@@ -57,7 +57,7 @@
 	}
 
 	body, input, select, textarea {
-		color: _palette(fg);
+		color: _palette(fg-light);
 		font-family: _font(family);
 		font-size: 16pt;
 		font-weight: _font(weight);
@@ -1006,6 +1006,11 @@
 				padding-top: 0;
 			}
 		}
+		h2 {
+			color: _palette(fg-bold);
+			font-weight: _vars(weight-bold);
+		}
+
 	}
 
 /* Poptrox */
