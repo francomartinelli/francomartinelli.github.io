@@ -1,5 +1,7 @@
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Raleway");
+<style>
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+</style>
 
 /*
 	Strata by HTML5 UP
