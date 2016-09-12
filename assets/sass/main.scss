@@ -3,7 +3,7 @@
 @import 'libs/mixins';
 @import url('font-awesome.min.css');
 @import url("https://fonts.googleapis.com/css?family=Raleway");
-  
+
 /*
 	Strata by HTML5 UP
 	html5up.net | @ajlkn
@@ -935,8 +935,10 @@
 		}
 
 		h1 {
-			color: _palette(accent2, fg);
-			font-size: 1.35em;
+			//color: _palette(accent2, fg);
+			color: _palette(bg);
+			font-size: 2.35em;
+			font-weight: _vars(weight-bold);
 			line-height: 1.75em;
 			margin: 0;
 		}
